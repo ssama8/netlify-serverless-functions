@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../../../Desktop/serverless-functions-starter-main/functions/1-hello.js"],
+  "sourceRoot": "C:/Users/16264/AppData/Local/Temp/tmp-84028-0ec1Uz1924Gc",
+  "sourcesContent": ["//domain/.netlify/1-hello\r\n\r\n//need to return a status code and a body, always need to send a string.\r\nexports.handler = async (event, context, cb) => {\r\n\tconsole.log(context);\r\n\treturn {\r\n\t\tstatusCode: 200,\r\n\t\tbody: \"Our First Netlify Function Example\",\r\n\t};\r\n};\r\n"],
+  "mappings": ";AAGA,QAAQ,UAAU,OAAO,OAAO,SAAS,OAAO;AAC/C,UAAQ,IAAI;AACZ,SAAO;AAAA,IACN,YAAY;AAAA,IACZ,MAAM;AAAA;AAAA;",
+  "names": []
+}
