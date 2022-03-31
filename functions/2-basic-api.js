@@ -2,7 +2,7 @@ const items = require("../assets/data");
 
 exports.handler = async (event, context) => {
 	return {
-		header: {
+		headers: {
 			"Access-Control-Allow-Origin": "*",
 		},
 		statusCode: 200,
